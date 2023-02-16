@@ -11,6 +11,7 @@ const employees = [];
 //TODO - write your inquirer app here to gather information about the team members, and generate the HTML file using fs
 
 function newEmployee() {
+  //The questions to ask the user
   inquirer
     .prompt([
       {
@@ -52,9 +53,9 @@ function newEmployee() {
               another();
             });
           break;
-        //ask about office number
+        //asking about the office number
         case "Intern":
-          //ask about school
+          // Asking about the school
           inquirer
             .prompt([
               {

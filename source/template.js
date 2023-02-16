@@ -1,6 +1,7 @@
 const renderHTMLFile = (team) => {
+  console.log(team);
   // rendering the HTML file
-  //   fs.writeFileSync(
+
   const generateManager = (manager) => {
     return `<!DOCTYPE html>
       <html lang="en">
@@ -66,7 +67,6 @@ const renderHTMLFile = (team) => {
             <h5 class="card-title">${intern.getName()}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${intern.getRole()}</h6>
             <p class="card-text">${intern.getId()}</p>
-            <p class="card-text">${intern.getGithub()}</p>
             <p class="card-text">${intern.getSchool()}</p>
         </div>
         </div>
