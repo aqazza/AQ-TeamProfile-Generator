@@ -82,6 +82,7 @@ function newEmployee() {
             ])
             .then(({ github }) => {
               employees.push(new Engineer(name, id, email, github));
+              renderHTMLFile();
               another();
             });
           break;
