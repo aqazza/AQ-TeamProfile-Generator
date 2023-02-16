@@ -1,4 +1,4 @@
-#Team Profile Generator
+# Team Profile Generator
 This is a command-line application that generates a team profile in HTML format. The application prompts the user to enter information about the team manager and team members, and generates an HTML file that displays the information in a formatted way.
 
 Table of Contents
@@ -7,12 +7,12 @@ Usage
 Credits
 License
 
-##Installation
+## Installation
 To install the application, first clone this repository to your local machine. Then, navigate to the root directory of the project and run the following command to install the necessary dependencies:
 Copy code
 npm install
 
-##Usage
+## Usage
 To run the application, navigate to the root directory of the project in your terminal and run the following command:
 Copy code
 node index.js
@@ -22,8 +22,8 @@ You will then be prompted to enter information about the team manager, and then 
 Here is a screenshot of the application in action:
 
 
-##Credits
+## Credits
 N/A
 
-##License
+## License
 This application is licensed under the MIT License.
