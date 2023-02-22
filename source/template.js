@@ -55,8 +55,8 @@ const renderHTMLFile = (team) => {
             <h6 class="card-subtitle mb-2 text-muted">${engineer.getRole()}</h6>
             <p class="card-text">${engineer.getId()}</p>
             <p class="card-text"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></p>
-            <p class="card-text">${engineer.getGithub()}</p>
-        </div>
+            <p class="fa-brands fa-github"><a href ="https://www.github.com/${engineer.getGithub()}"> GitHub</a></p>
+            </div>
         </div>
     `;
   };
