@@ -2,10 +2,13 @@
 
 This is a command-line application that generates a team profile in HTML format. The application prompts the user to enter information about the team manager and team members, and generates an HTML file that displays the information in a formatted way.
 
-Table of Contents
+## Table of Contents
 Installation
+
 Usage
+
 Credits
+
 License
 
 ## Installation
