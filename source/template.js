@@ -20,10 +20,10 @@ const renderHTMLFile = (team) => {
 
           <div class="card" style="width: 18rem">
           <div class="card-body">
-          <h5 class="card-title">${manager.getName()}</h5>
+          <h5 class="card-title"><i class="fa-solid fa-user"></i>${manager.getName()}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${manager.getRole()}</h6>
             <p class="card-text">${manager.getId()}</p>
-            <p class="card-text">${manager.getEmail()}</p>
+            <p class="card-text"><a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
             <p class="card-text">${manager.getOfficeNumber()}</p>
         </div>
           </div>
@@ -51,10 +51,10 @@ const renderHTMLFile = (team) => {
     return `
         <div class="card" style="width: 18rem">
         <div class="card-body">
-            <h5 class="card-title">${engineer.getName()}</h5>
+            <h5 class="card-title"><i class="fa-solid fa-user"></i>${engineer.getName()} </h5>
             <h6 class="card-subtitle mb-2 text-muted">${engineer.getRole()}</h6>
             <p class="card-text">${engineer.getId()}</p>
-            <p class="card-text">${engineer.getEmail()}</p>
+            <p class="card-text"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></p>
             <p class="card-text">${engineer.getGithub()}</p>
         </div>
         </div>
@@ -64,7 +64,7 @@ const renderHTMLFile = (team) => {
     return `
         <div class="card" style="width: 18rem">
         <div class="card-body">
-            <h5 class="card-title">${intern.getName()}</h5>
+            <h5 class="card-title"><i class="fa-solid fa-user"></i>${intern.getName()}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${intern.getRole()}</h6>
             <p class="card-text">${intern.getId()}</p>
             <p class="card-text">${intern.getSchool()}</p>
