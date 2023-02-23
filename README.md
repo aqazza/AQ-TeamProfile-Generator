@@ -25,7 +25,7 @@ Copy code
 node index.js
 
 You will then be prompted to enter information about the team manager, and then to choose whether to add an engineer or an intern to the team. Once all team members have been entered, the application will generate an HTML file in the dist directory.
-
+![Screenshot](./TeamProfileGenerator.png)
 Here is a video of the application in action:
 
 https://www.youtube.com/watch?v=q40yyiQgFGM
